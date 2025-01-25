@@ -1,0 +1,536 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Join{
+    background-image: url(./images/mobile/image-hero.jpg);
+    background-position: center;
+    background-size: 375px;
+    height: 450px;
+
+}
+
+.Flex{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 190px; */
+    padding: 20px;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+    margin-left: -20px;
+}
+
+.close{
+    display: none;
+}
+
+.Flex h3{
+     color: white;
+    text-transform: lowercase;
+    font-size: 21px; 
+}
+
+.nav{
+    display: none;
+}
+
+
+.That{
+    border: 1px solid white;
+    width: 300px;
+    height: 170px;
+    margin-top: 70px;
+    margin-left: 38px;
+}
+
+.That h1{
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 15px 20px;
+}
+
+.Leader img{
+    width: 300px;
+    margin-top: 90px;
+    margin-left: 38px;
+}
+
+.Kick h2{
+   margin-top: 50px;
+   text-align: center;
+   font-weight: lighter;
+   font-size: 30px;
+   letter-spacing: 3px;
+   text-transform: uppercase;
+}
+
+.Vin{
+    display: none;
+}
+
+.Kick p{
+    text-align: center;
+    margin-top: 20px;
+    color: hsl(0, 0%, 55%);
+}
+
+.Title h2{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+
+.Deep{
+    margin-left: 38px;
+    margin-top: 40px;
+    background-image: url(./images/mobile/image-deep-earth.jpg);
+    background-position: center;
+    background-size: 290px;
+    width: 300px;
+    color: white;
+    height: 100px;
+}
+
+.Deep h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 40px 20px ;
+}
+
+.Night{
+    margin-left: 38px;
+    margin-top: 20px;
+    background-image: url(./images/mobile/image-night-arcade.jpg);
+    background-position: center;
+    background-size: 300px;
+    width: 300px;
+    color: white;
+    height: 100px;
+}
+
+.Night h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 45px 20px ;
+}
+
+.Soccer{
+    margin-left: 38px;
+    margin-top: 20px;
+    background-image: url(./images/mobile/image-soccer-team.jpg);
+    background-position: center;
+    background-size: 300px;
+    width: 300px;
+    color: white;
+    height: 100px;
+}
+
+.Soccer h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 40px 20px ;
+}
+
+.The{
+    margin-left: 38px;
+    margin-top: 20px;
+    background-image: url(./images/mobile/image-grid.jpg);
+    background-position: center;
+    background-size: 300px;
+    width: 300px;
+    color: white;
+    height: 100px;
+}
+
+.The h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 45px 20px ;
+}
+
+.From{
+    margin-left: 38px;
+    margin-top: 20px;
+    background-image: url(./images/mobile/image-from-above.jpg);
+    background-position: center;
+    background-size: 300px;
+    width: 300px;
+    color: white;
+    height: 100px;
+}
+
+.From h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 45px 20px ;
+}
+
+.Pocket{
+    margin-left: 38px;
+    margin-top: 20px;
+    background-image: url(./images/mobile/image-pocket-borealis.jpg);
+    background-position: center;
+    background-size: 300px;
+    width: 300px;
+    color: white;
+    height: 100px;
+}
+
+.Pocket h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 45px 20px ;
+}
+
+.Cue{
+    margin-left: 38px;
+    margin-top: 20px;
+    background-image: url(./images/mobile/image-curiosity.jpg);
+    background-position: center;
+    background-size: 300px;
+    width: 300px;
+    color: white;
+    height: 100px;
+}
+
+.Cue h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 45px 20px ;
+}
+
+.Make{
+    margin-left: 38px;
+    margin-top: 20px;
+    background-image: url(./images/mobile/image-fisheye.jpg);
+    background-position: center;
+    background-size: 300px;
+    width: 300px;
+    color: white;
+    height: 100px;
+}
+
+.Make h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 45px 20px ;
+}
+
+button{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 120px;
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    background: white;
+    border-color:  black;
+}
+
+button:hover{
+    background: black;
+    color: white;
+}
+
+.Footer{
+    margin-top: 100px;
+    background: black;
+}
+
+.Footer h3{
+    color: white;
+   text-align: center;
+   padding-top: 50px;
+   font-size: 22px;
+}
+
+.Bar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Bar a{
+    text-decoration: none;
+    color: white;
+}
+
+.Bar p{
+    padding: 15px 0;
+}
+
+.Bar a:hover{
+     text-decoration: underline;  
+}
+
+.Media{
+    margin-top: 35px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.Media p{
+    color: white;
+}
+
+.Media a{
+    padding: 0 5px;
+}
+
+.Media img{
+    padding-bottom: 15px;
+}
+
+.Media img:hover{
+    text-decoration: underline;
+}
+
+
+@media(min-width:1024px){
+    .Join{
+         background-image: none;
+        background-image: url(./images/desktop/image-hero.jpg);
+        background-position: center;
+        background-size: 1500px;
+        height: 500px;
+    } 
+
+    .Flex h3{
+        padding: 10px 50px;
+        margin-left: 80px;
+    }
+
+    .nav{
+        display: flex;
+        gap: 20px;
+       justify-content: right;
+       margin-top: -55px;
+       padding-right: 100px;
+        color: white;
+        list-style-type: none;
+       
+    }
+
+    .nav a{
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+    .icon{
+        display: none;
+    }
+
+    .That{
+        margin-top: 130px;
+        margin-left: 150px;
+        width: 320px;
+    }
+
+    .Leader{
+        margin-top: 120px;
+        background-image: url(./images/desktop/image-interactive.jpg);
+        background-repeat: no-repeat;
+        /* background-size: 600px;  */
+        height: 500px;
+        margin-left: 150px;
+
+    }
+
+    .Leader img{
+        display: none;
+        margin-left: 150px;
+        width: 500px;
+    }
+
+    .Kick{
+        border: 1px solid white;
+        width: 420px;
+        height: 310px;
+        background: white;
+        margin-left: 700px;
+        margin-top: -310px;
+    }
+
+    .Kick h2{
+        text-align: left;
+        font-size: 35px;
+        font-weight: 100;
+        margin-left: 80px;
+        margin-top: 90px;
+    }
+
+    .Kick p{
+        text-align: left;
+        margin-left: 80px;
+    }
+
+    .Vin{
+        display: block;
+        margin-top: 90px;
+    }
+
+    .Title{
+        display: flex;
+        gap: 438px;
+    }
+
+    .Title h2{
+        margin-left: 150px;
+    }
+
+
+    .Lion{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 30px;
+    }
+
+    .Deep{
+        background-image: url(./images/desktop/image-deep-earth.jpg);
+        background-repeat: no-repeat; 
+        background-size: 200px;
+        background-position: left;
+        height: 300px;
+        margin-top: 22px;
+        margin-left: 155px;
+    }
+
+    .Deep h3{
+        margin-top: 200px;
+    }
+
+    .Night{
+        background-image: url(./images/desktop/image-night-arcade.jpg);
+        background-repeat: no-repeat; 
+        background-size: 200px;
+        background-position: left;
+        height: 300px;
+        margin-left: -50px;
+    }
+
+    .Night h3{
+        margin-top: 200px;
+    }
+    
+    .Soccer{
+            background-image: url(./images/desktop/image-soccer-team.jpg);
+            background-repeat: no-repeat; 
+            background-size: 200px;
+            background-position: left;
+            height: 300px;
+            margin-left: -70px;
+    }
+
+    .Soccer h3{
+        margin-top: 200px;
+    }
+
+    .The{
+        background-image: url(./images/desktop/image-grid.jpg);
+        background-repeat: no-repeat; 
+        background-size: 200px;
+        background-position: left;
+        height: 300px;
+        margin-left: -90px;
+    }
+
+    .The h3{
+        margin-top: 200px;
+    }
+
+    .From{
+        background-image: url(./images/desktop/image-from-above.jpg);
+        background-repeat: no-repeat; 
+        background-size: 200px;
+        background-position: left;
+        height: 300px;
+        margin-top: 40px;
+        margin-left: 155px;
+    }
+
+    .From h3{
+        margin-top: 200px;
+    }
+
+    .Pocket{
+        background-image: url(./images/desktop/image-pocket-borealis.jpg);
+        background-repeat: no-repeat; 
+        background-size: 200px;
+        background-position: left;
+        height: 300px;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .Pocket h3{
+        margin-top: 200px;
+    }
+
+    .Cue{
+        background-image: url(./images/desktop/image-curiosity.jpg);
+        background-repeat: no-repeat; 
+        background-size: 200px;
+        background-position: left;
+        height: 300px;
+        margin-top: 40px;
+        margin-left: -70px;
+    }
+
+    .Cue h3{
+        margin-top: 200px;
+    }
+
+    .Make{
+        background-image: url(./images/desktop/image-fisheye.jpg);
+        background-repeat: no-repeat; 
+        background-size: 200px;
+        background-position: left;
+        height: 300px;
+        margin-top: 40px;
+        margin-left: -90px;
+    }
+
+    .Make h3{
+        margin-top: 200px;
+    }
+
+    button{
+        display: none;
+    }
+
+    .Footer{
+        height: 125px;
+    }
+
+    .Footer h3{
+        margin-left: -828px;
+    }
+
+    .Bar{
+        margin-left: 155px;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .Media{
+        margin-left: 800px;
+        margin-top: -75px;
+
+    }
+}
